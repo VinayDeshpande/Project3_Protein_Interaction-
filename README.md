@@ -13,7 +13,7 @@ Meeting 18/11/2016<br>
 
 ###<dl>Vinay Arvind Deshpande </dl>
       1)Setting up GitHub Repository.
-      2)Research on different proteins  which includes the all the information related to proteins . 
+      2)Research on different proteins  which includes all the information related to cancer studies  . 
 
 
 ###<dl>Bhavya Batra </dl>
