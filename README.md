@@ -7,18 +7,18 @@ Meeting 18/11/2016<br>
 --Discussed basic idea about the project. Distributed various tasks among the group members. 
 
 ###<dl>Arun Kumar Jagerkal </dl>
-      1)Study of Web API.
-      2)Connecting and Retrieving Information related to different Proteins from the cBioPortal Database.
+      1)Study of Web API.(done)
+      2)Connecting and Retrieving Information related to different Proteins from the cBioPortal Database.(done and showed sample data)
 
 
 ###<dl>Vinay Arvind Deshpande </dl>
-      1)Setting up GitHub Repository.
-      2)Research on different proteins  which includes all the information related to cancer studies  . 
+      1)Setting up GitHub Repository.(done)
+      2)Research on different proteins  which includes all the information related to cancer studies  .(found protienalias website) 
 
 
 ###<dl>Bhavya Batra </dl>
-      1)Research on cBioPortal website of all the proteins  
-      2)Analyze what information can be rendered efficiently.   
+      1)Research on cBioPortal website of all the proteins (done)
+      2)Analyze what information can be rendered efficiently.  (done and discussed ideas with the professor). 
 
 ## Week 2 (11/21/2016 - 11/28/2016) 
 
