@@ -24,19 +24,19 @@ Meeting 18/11/2016<br>
 
 Meeting 21/11/2016<br>
 ###<dl>Arun Kumar Jagerkal </dl>
-      1)Need to get the statistical information when passed as a query.
-      2)Mutation rates based on gender. 
-      3)Connecting and Retrieving Information related to different Proteins from the cBioPortal Database.
+      1)Need to get the statistical information when passed as a query.(done)
+      2)Mutation rates based on gender. (done)
+      3)Connecting and Retrieving Information related to different Proteins from the cBioPortal Database.(done) 
 
 
 ###<dl>Vinay Arvind Deshpande </dl>
-      1)Research on proteinalias website for Web API to get protein data.
-      2)Work on the data to visualize Images and data . 
+      1)Research on proteinalias website for Web API to get protein data.(done)
+      2)Work on the data to get different cancer types based on protiens(done) . 
 
 
 ###<dl>Bhavya Batra </dl>
-      1)Research on how to visualize the data. 
-      2)Fetch protein based images for different types of cancers.
+      1)Research on how to visualize the data. (done)
+      2)Fetch protein based images for different types of cancers.(Found the RestAPI) (Working with Arun and Vinay ) 
       
 ## Week 3 (11/28/2016 - 11/05/2016) 
 
