@@ -36,7 +36,7 @@
     transition: width 0.4s ease-in-out;
 }
 button{
-width: 130px;
+	height: 250px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -52,11 +52,13 @@ input[type=text]:focus {
 <body>
 
 
-
 <form>
-Search Gene:  <input type="text" id="search_gene" name="search" placeholder="Search.."> 
-<br><button type="button" onclick=gender_ratio(search_gene.value)>Search</button>
+<input type="text" id="search_gene" name="search" placeholder="Search.."> 
+<button type="button" style="height:48px; box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;font-size: 16px;background-color: white;" onclick=draw()>Search</button>
+
+
 </form>
+
 <script type="text/javascript">
 var cBioPortalData = {};
 var studyIds = ["paac_jhu_2014","laml_tcga_pub","laml_tcga","acyc_mskcc","acc_tcga","blca_mskcc_solit_2014","blca_mskcc_solit_2012","blca_mskcc_signet_ring_impact","blca_plasmacytoid_mskcc_2016","blca_bgi","blca_dfarber_mskcc_2014","blca_tcga_pub","blca_tcga","lgg_tcga","brca_bccrc","brca_broad","brca_sanger","brca_tcga_pub2015","brca_tcga_pub","brca_tcga","brca_bccrc_xenograft_2014","cellline_ccle_broad","cesc_tcga","chol_nccs_2013","chol_nus_2012","chol_tcga","ccrcc_utokyo_2013","coadread_genentech","coadread_tcga_pub","coadread_tcga","coadread_mskcc","cscc_dfarber_2015","desm_broad_2015","esca_broad","esca_tcga","escc_icgc","escc_ucla_2014","es_iocurie_2014","gbc_shanghai_2014","egc_tmucih_2015","gbm_tcga_pub2013","gbm_tcga_pub","gbm_tcga","hnsc_broad","hnsc_jhu","hnsc_tcga_pub","hnsc_tcga","all_stjude_2015","chol_jhu_2013","kich_tcga_pub","kich_tcga","kirc_bgi","kirc_tcga_pub","kirc_tcga","kirp_tcga","lihc_amc_prv","lihc_riken","lihc_tcga","lgg_ucsf_2014","luad_broad","luad_mskcc_2015","luad_tcga_pub","luad_tcga","luad_tsp","lusc_tcga_pub","lusc_tcga","dlbc_tcga","mpnst_mskcc","mbl_broad_2012","mbl_icgc","mbl_pcgp","skcm_broad_dfarber","lgggbm_tcga_pub","meso_tcga","prad_su2c_2015","mm_broad","ccrcc_irc_2014","cellline_nci60","npc_nusingapore","nbl_amc_2012","nepc_wcm","ov_tcga_pub","ov_tcga","paad_icgc","paad_tcga","paad_utsw_2015","panet_jhu_2011","thca_tcga_pub","es_dfarber_broad_2014","pcpg_tcga","thyroid_mskcc_2016","pcnsl_mayo_2015","prad_broad_2013","prad_broad","prad_mskcc","prad_fhcrc","prad_tcga_pub","prad_tcga","prad_mskcc_2014","prad_mskcc_cheny1_organoids_2014","prad_mich","nccrcc_genentech_2014","rms_nih_2014","sarc_mskcc","sarc_tcga","skcm_broad","skcm_tcga","skcm_yale","scco_mskcc","sclc_clcgp","sclc_jhu","sclc_ucologne_2015","stad_pfizer_uhongkong","stad_tcga_pub","stad_tcga","stad_utokyo","stad_uhongkong","tgct_tcga","tet_nci_2014","thym_tcga","thca_tcga","ucs_jhu_2014","ucs_tcga","ucec_tcga","ucec_tcga_pub","uvm_tcga"];
@@ -71,6 +73,18 @@ var data=[];
 var gender_arr=[];
 var processDone=false;
 getResult();
+function draw()
+{
+	gender_ratio_obj=[];
+	gender_arr=[];
+	processDone=false;
+	countertemp=0;
+	
+	getResult();
+	svg.selectAll(".bar_g").remove();
+	//draw_bar();
+	gender_ratio(search_gene.value)
+}
 function getResult(){
       if (processDone) {
            //return some variables
@@ -93,8 +107,12 @@ function getResult(){
 						}
 						console.log(gender_arr);
 						draw_bar();
+						
+						
 
       } else {
+			console.log("time out");
+			//document.getElementById("load").disabled=false;
            setTimeout(getResult, 250);
       }
  }
@@ -104,6 +122,7 @@ function getResult(){
 function gender_ratio(geneName)
 {
 	console.log("called" +geneName);
+	
 	  	cBioPortalData[geneName] = new Object();
   	
   	if (geneName=="")  
@@ -143,6 +162,7 @@ function gender_ratio(geneName)
 							for( key in d[i])
 							{
 							//debugger;
+							console.log("Load");
 							var sex=key.split("	").indexOf("SEX")
 								var gender=key.split("	").indexOf("GENDER")
 								var obj={cancer_type : "",Male : "",Female : ""}
@@ -255,6 +275,7 @@ function gender_ratio(geneName)
 		//	processDone=true;
 			}
 		}
+		
 	}
 	//callback();
 	}
@@ -534,7 +555,9 @@ tooltip.append("text")
   .style("text-anchor", "middle")
   .attr("font-size", "12px")
   .attr("font-weight", "bold");
-}
+  
+	//document.getElementById("load").disabled =true;
+  }
 function sort_data(d)
 {
 	console.log(" d  "+d);
