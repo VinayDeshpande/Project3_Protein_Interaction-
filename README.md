@@ -82,6 +82,14 @@ We as a Team have not only considered the above website but also go beyond the e
   
   ![4](https://cloud.githubusercontent.com/assets/22176809/21092049/bb2bc50a-c00f-11e6-93ad-60e8f34ef1df.JPG)
   
+  Sorting the Cancers based on its impact on Males
+  
+  ![male sort](https://cloud.githubusercontent.com/assets/22176809/21092048/bb2ba0de-c00f-11e6-9778-dd230911093a.JPG)
+  
+  Sorting the Cancers based on its impact on Females
+  
+  ![female sort](https://cloud.githubusercontent.com/assets/22176809/21092052/bb2cbcf8-c00f-11e6-9f41-00722375bcb2.JPG)
+  
   <b>The Requirment is further enhanced by showing the intensity of each Gene on a Particular Cancer type . This mainly helps the user understand the effect of each Gene on a Cancer type . The data obtained for this requirment has been obtained from the publications in the http://www.proteinatlas.org/ . The CSV data obtained is from reliable sources since the data is from the authorized publications .
   The CSV Data shows exactly how the gene is affecting a particular cancer type . The CSV data has been synchronized dynamically with the data obtained by the Cbioportal website to visualize it better. <b>
 
