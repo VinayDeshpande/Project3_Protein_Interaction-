@@ -55,7 +55,7 @@ input[type=text]:focus {
 <form>
 <input type="text" id="search_gene" name="search" placeholder="Search.."> 
 <button type="button" style="height:48px; box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;font-size: 16px;background-color: white;" onclick=draw()>Search</button>
-
+<label id="load">Loading Data....</label>
 
 </form>
 
@@ -106,13 +106,14 @@ function getResult(){
 							gender_arr.push(temp);
 						}
 						console.log(gender_arr);
+						document.getElementById("load").style.color = "white";
 						draw_bar();
 						
 						
 
       } else {
 			console.log("time out");
-			//document.getElementById("load").disabled=false;
+			document.getElementById("load").style.color = "Black";
            setTimeout(getResult, 250);
       }
  }
@@ -424,6 +425,7 @@ var legend = svg.selectAll(".legend")
   });
  
 legend.append("rect")
+.attr("class","bar_g")
   .attr("x", width - 18)
   .attr("width", 14)
   .attr("height", 14)
@@ -432,6 +434,7 @@ legend.append("rect")
  
 
 legend.append("text")
+.attr("class","bar_g")
   .attr("x", width + 5)
   .attr("y", 9)
   .attr("dy", ".35em")
