@@ -66,7 +66,8 @@ Meeting 21/11/2016<br>
 We as a Team have not only considered the above website but also go beyond the expectations and gathered data from different publications pertaining to Research on Cancer and its intensity .
      The API(Application Program Interface) is requested from the Javascript code written and obtain the relavant data.The data mainly consists of different Case Studies on a particular Gene . The details of it is as shown below ..</b>
      
- https://cloud.githubusercontent.com/assets/22176809/21091973/2e02886c-c00f-11e6-9382-8df74e687150.JPG
+![1](https://cloud.githubusercontent.com/assets/22176809/21091973/2e02886c-c00f-11e6-9382-8df74e687150.JPG)
+
 
 
 <b>The Requested data from the Cbioportal needs to be proccessed and filtered according to the requirement. In this Project our Main aim or motive is to show the Male and Female ratio based on a Gene. </b>
