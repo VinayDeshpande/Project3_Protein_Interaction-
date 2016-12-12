@@ -417,7 +417,8 @@ var rect = groups.selectAll("rect")
 var legend = svg.selectAll(".legend")
   .data(colors)
   .enter().append("g")
-  .attr("class", "legend")
+  //.attr("class", "legend")
+  .attr("class","bar_g")
   .attr("transform", function(d, i) { return "translate(30," + i * 19 + ")"; })
   .on("click", function(d) { 
 				console.log("clicked  "+d)
@@ -425,7 +426,6 @@ var legend = svg.selectAll(".legend")
   });
  
 legend.append("rect")
-.attr("class","bar_g")
   .attr("x", width - 18)
   .attr("width", 14)
   .attr("height", 14)
@@ -434,7 +434,6 @@ legend.append("rect")
  
 
 legend.append("text")
-.attr("class","bar_g")
   .attr("x", width + 5)
   .attr("y", 9)
   .attr("dy", ".35em")
@@ -512,8 +511,8 @@ var intensity_high=svg.append("g")
 				
   });
 var intensity_medium=svg.append("g")
-.attr("class","bar_g")
 .append("text")
+.attr("class","bar_g")
 .attr("opacity",intensity_val)
 .style("font-size","11px")
 .attr("transform", "translate("+[width+35]+", "+[75]+")")
