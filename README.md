@@ -2,8 +2,8 @@
 # Project Report 
 
 Project 3 of CS5331-004: Visualization and Visual Analytics - Fall 2016 
-		
-		Study of Genes and Its Imapct on Cancer
+
+<h2>Study of Genes and Its Imapct on Cancer types<h2>
 
  -Link to Demo: http://myweb.ttu.edu/videshpa/
  
