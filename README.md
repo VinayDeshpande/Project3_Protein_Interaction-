@@ -10,6 +10,8 @@ Project 3 of CS5331-004: Visualization and Visual Analytics - Fall 2016
  -Link to Demo: http://myweb.ttu.edu/videshpa/
  
  -Youtube video: https://youtu.be/AViFyIenAz0
+  [![Video](http://img.youtube.com/vi/https://youtu.be/AViFyIenAz0/0.jpg)]
+  (https://youtu.be/AViFyIenAz0)
 
  <b> 
 This project is mainly based on the Research of Cancer Studies. In this  project, the main criteria is to understand the research work going on and also  need to overlay experimental data (from cancer studies) on top of a protein network. 
