@@ -64,6 +64,7 @@ Meeting 21/11/2016<br>
  <b> Project 3 of CS5331-004: Visualization and Visual Analytics - Fall 2016   is mainly based on the Research of Cancer Studies . In this  project, the main criteria is to understand the research work going on and also  need to overlay experimental data (from cancer studies) on top of a protein network. 
       The main source of the data has been acquired form http://www.cbioportal.org/. 
 We as a Team have not only considered the above website but also go beyond the expectations and gathered data from different publications pertaining to Research on Cancer and its intensity .
+### Data Pre-Processing 
      The API(Application Program Interface) is requested from the Javascript code written and obtain the relavant data.The data mainly consists of different Case Studies on a particular Gene . The details of it is as shown below ..</b>
      
 ![1](https://cloud.githubusercontent.com/assets/22176809/21091973/2e02886c-c00f-11e6-9382-8df74e687150.JPG)
@@ -79,7 +80,7 @@ We as a Team have not only considered the above website but also go beyond the e
 ![3](https://cloud.githubusercontent.com/assets/22176809/21092051/bb2c9020-c00f-11e6-831f-a0e108c5cb7d.JPG)
   
  <b> The Requirment is enhanced by sorting down the male and female count . The Legend shown are Male and Female . The user Clicks on the Male Legend to sort the data based on the Male count. When the user clicks on the female count the data is sorted based on the Female count . The motive of this requirement is to mainly understand the the effect of each Gene on a cancer tye based on the Gender . </b>
-  
+  ###Rendering the data 
   ![4](https://cloud.githubusercontent.com/assets/22176809/21092049/bb2bc50a-c00f-11e6-93ad-60e8f34ef1df.JPG)
   
   Sorting the Cancers based on its impact on Males
@@ -112,6 +113,10 @@ Low Intensity
   
  <b> The Project shows the data in the form of Bar Graph which makes it quite easy for any type of the user to read and understand the data. Results have shown that Bar graph is the best way to visualize the data which makes it quite easy for any lay man to understand it well. </b>
   
+  ### Future Work 
   
+  <b>1)The  image retrieved can be animated further using cola.js library.
+  2)The visiualization used even though efficient ,can be further enhanced .
+  3) Use of Three.js Library to visually improve the appearnace and animate it. </b>
   
   
