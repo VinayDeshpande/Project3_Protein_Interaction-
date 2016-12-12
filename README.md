@@ -60,14 +60,8 @@ Meeting 21/11/2016<br>
 
 
 # Project Report 
- Project 3 of CS5331-004: Visualization and Visual Analytics - Fall 2016   
 
-Study of Genes and Its Imapct on Cancer
-
-- Link to Demo: 
-- Youtube video: https://youtu.be/AViFyIenAz0
-
-This project is mainly based on the Research of Cancer Studies . In this  project, the main criteria is to understand the research work going on and also  need to overlay experimental data (from cancer studies) on top of a protein network. 
+ <b> Project 3 of CS5331-004: Visualization and Visual Analytics - Fall 2016   is mainly based on the Research of Cancer Studies . In this  project, the main criteria is to understand the research work going on and also  need to overlay experimental data (from cancer studies) on top of a protein network. 
       The main source of the data has been acquired form http://www.cbioportal.org/. 
 We as a Team have not only considered the above website but also go beyond the expectations and gathered data from different publications pertaining to Research on Cancer and its intensity .
 ### Data Pre-Processing 
@@ -119,10 +113,10 @@ Low Intensity
   
  <b> The Project shows the data in the form of Bar Graph which makes it quite easy for any type of the user to read and understand the data. Results have shown that Bar graph is the best way to visualize the data which makes it quite easy for any lay man to understand it well. </b>
   
-  ### Future Work 
+## Future Work  
   
-  <b>1)The  image retrieved can be animated further using cola.js library.
-  2)The visiualization used even though efficient ,can be further enhanced .
+  <b>1)The  image retrieved can be animated further using cola.js library.<br/>
+  2)The visiualization used even though efficient ,can be further enhanced .<br/>
   3) Use of Three.js Library to visually improve the appearnace and animate it. </b>
   
   
