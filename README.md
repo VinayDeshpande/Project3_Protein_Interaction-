@@ -2,17 +2,20 @@
 # Project Report 
 
 Project 3 of CS5331-004: Visualization and Visual Analytics - Fall 2016 
+		
 		Study of Genes and Its Imapct on Cancer
 
  -Link to Demo: http://myweb.ttu.edu/videshpa/
--Youtube video: https://youtu.be/AViFyIenAz0
+ 
+ -Youtube video: https://youtu.be/AViFyIenAz0
 
  <b> 
 This project is mainly based on the Research of Cancer Studies. In this  project, the main criteria is to understand the research work going on and also  need to overlay experimental data (from cancer studies) on top of a protein network. 
       The main source of the data has been acquired form http://www.cbioportal.org/. 
 We as a Team have not only considered the above website but also go beyond the expectations and gathered data from different publications pertaining to Research on Cancer and its intensity .
+
 ### Data Pre-Processing 
-     The API(Application Program Interface) is requested from the Javascript code written and obtain the relavant data.The data mainly consists of different Case Studies on a particular Gene . The details of it is as shown below ..</b>
+The API(Application Program Interface) is requested from the Javascript code written and obtain the relavant data.The data mainly consists of different Case Studies on a particular Gene . The details of it is as shown below ..</b>
      
 ![1](https://cloud.githubusercontent.com/assets/22176809/21091973/2e02886c-c00f-11e6-9382-8df74e687150.JPG)
 
