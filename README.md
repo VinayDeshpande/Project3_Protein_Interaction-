@@ -72,24 +72,32 @@ We as a Team have not only considered the above website but also go beyond the e
 
 <b>The Requested data from the Cbioportal needs to be proccessed and filtered according to the requirement. In this Project our Main aim or motive is to show the Male and Female ratio based on a Gene. </b>
 
-      Give EXample data here. 
+![2](https://cloud.githubusercontent.com/assets/22176809/21092033/9e6ae482-c00f-11e6-9fa6-68f1d8225a6e.JPG)
       
  <b> The data is in the form of Array of Objects which consits of Male Count and the Female count with respect to each Cancer type for each Gene Clicked by the user .</b>
   
-  Give Example data shot here. 
+![3](https://cloud.githubusercontent.com/assets/22176809/21092051/bb2c9020-c00f-11e6-831f-a0e108c5cb7d.JPG)
   
  <b> The Requirment is enhanced by sorting down the male and female count . The Legend shown are Male and Female . The user Clicks on the Male Legend to sort the data based on the Male count. When the user clicks on the female count the data is sorted based on the Female count . The motive of this requirement is to mainly understand the the effect of each Gene on a cancer tye based on the Gender . </b>
   
-  Give Example Screen Shot . 
-  
+  ![4](https://cloud.githubusercontent.com/assets/22176809/21092049/bb2bc50a-c00f-11e6-93ad-60e8f34ef1df.JPG)
   
   <b>The Requirment is further enhanced by showing the intensity of each Gene on a Particular Cancer type . This mainly helps the user understand the effect of each Gene on a Cancer type . The data obtained for this requirment has been obtained from the publications in the http://www.proteinatlas.org/ . The CSV data obtained is from reliable sources since the data is from the authorized publications .
   The CSV Data shows exactly how the gene is affecting a particular cancer type . The CSV data has been synchronized dynamically with the data obtained by the Cbioportal website to visualize it better. <b>
+
+High Intensity
+
+![high intensity](https://cloud.githubusercontent.com/assets/22176809/21092047/bb2b95e4-c00f-11e6-873e-0c0ecde6a76d.JPG)
+
+Medium Intensity
+
+![medium intennsity](https://cloud.githubusercontent.com/assets/22176809/21092053/bb3a7d84-c00f-11e6-8385-88392215b315.JPG)
   
-  Example Screen Shot Here. 
-  
-  
-  
+Low Intensity
+
+![low intensity](https://cloud.githubusercontent.com/assets/22176809/21092050/bb2c4c64-c00f-11e6-85d2-f6b295a23521.JPG)
+
+
  <b> The Next Requirement is to show exactly what the Cancer Gene Looks like . The best possible way to do that is to show the user on how the Gene looks liks and its structure . The images have been obtained from the relaible sources and the image is rendered based on the request of the user . Although an user who does not have any knwoledge about the study of cancer may find it hard to understand the structure of the data , but along with the visuzalized data it becomes easier for the user to corelate between the data and the gene and get some basic knowledge of it  .. </b>
   
   Here is the Screen shot which show s a particular Gene along with its effect and the Gender impact of that Gene. 
